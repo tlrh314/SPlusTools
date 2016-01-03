@@ -194,3 +194,8 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+
+
+# Csharp automatically generated stuff that Gerrit did not seem to have committed?
+# *.xproj
+# *.json

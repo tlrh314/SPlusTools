@@ -1,0 +1,28 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "UvA.SPlusTools.UserText5 Console Application",
+  "authors": [ "timohalbesma" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+  },
+
+  "commands": {
+    "UvA.SPlusTools.UserText5": "UvA.SPlusTools.UserText5"
+  },
+
+    "frameworks": {
+        "dnx451": {
+            "frameworkAssemblies": {
+                "System.Data": "4.0.0.0",
+                "System.XML": "4.0.0.0"
+            },
+            "dependencies": {
+                "UvA.SPlusTools.Data": "1.0.0-*",
+                "UvA.Utilities": "1.0.0-*"
+            }
+        }
+    }
+}
